@@ -89,4 +89,4 @@ main()
 # Created by CyberspatialXIII
 
 # Use: 
-# python3 gueg.py -l names.txt 99 '.' -l surnames.txt 99 '' -a @example.net
+# python3 gueg.py -l names.txt 99 '.' -l surnames.txt 99 '' -a @example.local
