@@ -55,7 +55,7 @@ def add_domain(users, domain):
 
 
 @click.command()
-@click.option('-l', help="Name/surname wordlist, word's lenght(optional) and symbol to append.", type=(str, int, str), multiple=True)
+@click.option('-l', help="Name/surname wordlist, word's lenght and symbol to append.", type=(str, int, str), multiple=True)
 @click.option('-n', help='Mix numbers from 1 to X with usernames.', type = int)
 @click.option('-a', default='', help='Add @ and domain Ex: @expample.local')
 def main(l, n, a):
